@@ -1,27 +1,29 @@
-# UW_final_project
+# NLP & Sentiment Analysis for Specialty Ice Cream Flavor
 ## Members: Brian Forth, Ashley Green, Max Thorstad, Kylie Wrenn
 
-### Communication Protocols
-For the duration of this project, Slack will be our primary communication vehicle. We've created a group chat there and so far it has proven sufficient to get feedback from one another and brainstorm.
 
-We also have a standing weekly meeting at 7pm CST every Wednesday via Zoom, in addition to utilizing weekly class time to strategize next steps and perform our analysis.
 
-### Presentation
+### Overview
 
-We selected this topic to determine what ice cream flavor would be the best for our new ice cream company. For our new flavor, we want a specialty flavor. Our source data is several csv files from Kaggle that compiled flavors and customer reviews from four different ice cream companies. The flavor dataset includes the company, name of the flavor, and a description. The review dataset includes a product rating from 1-5, votes on whether or not other customers found each review helpful, and a written-out review. We will use Natural Language Processing (NLP) to parse out the written reviews in order to determine which words are most associated with higher ratings so we can better determine a flavor for our specialty ice cream. We're going to use this process to maximize efficiency in our product development process.
+After two years of success in the ice cream industry, we reviewed our prior year financials and plan for the upcoming year. We've had great success with our traditional vanilla, chocolate and strawberry flavors and are ready to expand. We see that there's an opportunity to introduce in a new specialty flavor to grow our business beyond the traditional flavors with the ultimate goal of growing beyond our local market. We are now faced with the task of identifying the best specialty ice cream flavor.
 
-[Google Slides Presentation](https://docs.google.com/presentation/d/1o12XOvr3tCzIAZenm0lMi9tgW_xn3FhA8FbdcHNaUy4/edit#slide=id.gdc1ec10833_0_77)
-
+As a small business, it is critical that we keep our costs low. We are limited and want to make the best of product testing. In order to accomplish this, we will conduct intense research on Amazon Ice Cream Reviews to help us pinpoin the perfect specialty flavor.
 
 We will use Natural Language Processing (NLP) to parse out the written reviews in order to determine which words are most associated with higher ratings so we can better determine a flavor for our specialty ice cream. This process will help us finalize our decision on a new specialty flavor and maximize efficiency in our product development process.
 
-### Tableau Dashboard
 
-[Tableau Dashboard](https://public.tableau.com/app/profile/brian.william.forth/viz/UW_final_project/IceCreamDashboard)
+### Communication Protocols
 
-![DASHBOARD](https://github.com/MaxThors/UW_final_project/blob/main/Resources/Images/dashboard.png)
+For the duration of this project, Slack was our primary communication vehicle. We've created a group chat there and it has proven sufficient to get feedback from one another and brainstorm.
 
-We created a Tableau Dashboard on the Tableau Public server in order to clearly illustrate some results we found in an interactive way that allows the viewer to filter to relevant data. The tree map and histogram can both be filtered by brand. The word cloud can be filtered by significance of the words. The tree map can be filtered by the average compund score from VADER for each flavor. Further, selecting either flavors from the Tree Map or bins of reviews in the histogram will filter the other visualization based on the selected data.
+We also have a standing weekly meeting at 7pm CST every Wednesday via Zoom, in addition to utilizing weekly class time to strategize next steps and perform our analysis.
+
+
+### Data Source
+
+Our source data consists of multiple csv files from Kaggle that compiled flavors and customer reviews from four different household name ice cream companies. 
+- The flavor dataset includes the company, name of the flavor, and a description. 
+- The review dataset includes a product rating of 1-5 with 5 being best, votes on whether or not other customers found each review helpful, and a written-out review by the consumer. 
 
 
 
@@ -515,6 +517,18 @@ We performed all of the steps to do such and we now have VADER Top 20 Ice Cream 
 
 ![VADER_top20](https://github.com/MaxThors/UW_final_project/blob/ash_seg2/Resources/Images/VADER_top20.png)
 
+
+### Tableau Dashboard
+
+[Tableau Dashboard](https://public.tableau.com/app/profile/brian.william.forth/viz/UW_final_project/IceCreamDashboard)
+
+![DASHBOARD](https://github.com/MaxThors/UW_final_project/blob/main/Resources/Images/dashboard.png)
+
+We created a Tableau Dashboard on the Tableau Public server in order to clearly illustrate some results we found in an interactive way that allows the viewer to filter to relevant data. The tree map and histogram can both be filtered by brand. The word cloud can be filtered by significance of the words. The tree map can be filtered by the average compund score from VADER for each flavor. Further, selecting either flavors from the Tree Map or bins of reviews in the histogram will filter the other visualization based on the selected data.
+
+
+Here is a link to the slides for the 10 minute verbal presentation of our results:
+[Google Slides Presentation](https://docs.google.com/presentation/d/1o12XOvr3tCzIAZenm0lMi9tgW_xn3FhA8FbdcHNaUy4/edit#slide=id.gdc1ec10833_0_77)
 
 
 ## Results
